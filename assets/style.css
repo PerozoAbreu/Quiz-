@@ -1,0 +1,42 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+* {
+    font-family: 'Noto Sans TC', sans-serif;
+    
+}
+
+/* Main content */
+main {
+    flex: 1 0 auto;
+    background-color: blue;
+
+    
+}
+
+
+
+#questions,
+#final,
+#highscores,
+#yaynay {
+    display: none;  
+  } 
+
+
+ul.nobullets {
+list-style-type: none;
+}
+
+
+.ansBtn,
+.ansBtn:hover,
+.ansBtn:active,
+.ansBtn:focus,
+.ansBtn:active:focus {
+    box-shadow: none;
+    outline: none;
+    background-color: black;
+}
+
+
